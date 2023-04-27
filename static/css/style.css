@@ -16,7 +16,7 @@ a:hover {
 h1 {
     margin: 0 auto;
     font-size: 36px;
-    width: 300px;
+    width: 500px;
     height: 60px;
     vertical-align: middle;
     line-height: 60px;
@@ -40,8 +40,39 @@ h1 {
     font-size: 18px;
 }
 
+.links {
+    margin: 0 auto;
+    width: 500px;
+    height: 50px;
+    background-color: #BDE0FE;
+    border: 4px solid #CDB4DB;
+}
+
+.links img {
+    padding: 10px 20px;
+    width: 30;
+    height: 30px;
+}
+
+#projects a {
+    padding: 0 40px;
+    text-decoration: none;
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+table, th, td {
+	border: 1px solid #000;
+}
+
+td img {
+    max-width: 300px;
+    max-height: 76px;
+}
+
 /* 
-    index.html 
+    /index.html 
 */
 
 #index-container {
@@ -65,7 +96,7 @@ h1 {
 }
 
 /* 
-    about.html 
+    /about.html 
 */
 
 #about-container {
@@ -82,7 +113,7 @@ h1 {
 }
 
 /* 
-    contact.html 
+    /contact.html 
 */
 
 #contact-container {
@@ -94,7 +125,7 @@ h1 {
 }
 
 /* 
-    projects/index.html
+    /projects/index.html
 */
 
 #projects-container {
@@ -105,26 +136,67 @@ h1 {
     border: 4px solid #CDB4DB;
 }
 
+/* 
+    /projects/saladsimulator/index.html
+*/
 
-.socials {
+#ss-container {
     margin: 0 auto;
-    width: 500px;
-    height: 50px;
+    width: 700px;
+    height: 300px;
     background-color: #BDE0FE;
     border: 4px solid #CDB4DB;
 }
 
-.socials img {
-    padding: 10px 20px;
-    width: 30;
-    height: 30px;
+#ss-container .content img {
+    float: left;
+    padding: 25px;
+    width: 200px;
+    height: 200px;
 }
 
-table, th, td {
-	border: 1px solid #000;
+#ss-container .content p {
+    padding: 0 25px 0 250px;
+    text-align: left;
 }
 
-td img {
-    max-width: 300px;
-    max-height: 76px;
+/* 
+    /projects/saladsimulator/old.html
+*/
+
+#oss-container {
+    margin: 0 auto;
+    width: 700px;
+    height: 320px;
+    background-color: #BDE0FE;
+    border: 4px solid #CDB4DB;
+}
+
+#oss-container .content img {
+    float: left;
+    padding: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+#oss-container .content p {
+    padding: 0 25px 0 250px;
+    text-align: left;
+}
+
+/* 
+    /projects/saladclicker.html
+*/
+
+#sc-container {
+    margin: 0 auto;
+    width: 700px;
+    height: 200px;
+    background-color: #BDE0FE;
+    border: 4px solid #CDB4DB;
+}
+
+#sc-container .content p {
+    padding: 0 25px 0 25px;
+    text-align: center;
 }

@@ -35,14 +35,14 @@ h1 {
 }
 
 .navbar a {
-    padding: 0 50px;
+    padding: 0 20px;
     text-decoration: none;
     font-size: 18px;
 }
 
 .links {
     margin: 0 auto;
-    width: 500px;
+    width: 650px;
     height: 50px;
     background-color: #BDE0FE;
     border: 4px solid #CDB4DB;
@@ -78,7 +78,7 @@ td img {
 #index-container {
     margin: 0 auto;
     width: 700px;
-    height: 280px;
+    height: 285px;
     background-color: #BDE0FE;
     border: 4px solid #CDB4DB;
 }
@@ -107,9 +107,16 @@ td img {
     border: 4px solid #CDB4DB;
 }
 
-#about-container .content p {
-    padding: 0 25px 0 25px;
-    text-align: center;
+/* 
+    /videos.html
+*/
+
+#videos-container {
+    margin: 0 auto;
+    width: 700px;
+    height: 262px;
+    background-color: #BDE0FE;
+    border: 4px solid #CDB4DB;
 }
 
 /* 

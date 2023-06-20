@@ -27,7 +27,7 @@ h1 {
 .navbar {
     margin: 0 auto;
     width: 700px;
-    height: auto;
+    height: 35px;
     vertical-align: middle;
     line-height: 35px;
     background-color: #BDE0FE;
@@ -50,7 +50,6 @@ h1 {
 
 .links img {
     padding: 10px 20px;
-    width: 30;
     height: 30px;
 }
 
@@ -62,8 +61,10 @@ h1 {
     line-height: 50px;
 }
 
-table, th, td {
-	border: 1px solid #000;
+table,
+th,
+td {
+    border: 1px solid #000;
 }
 
 td img {
@@ -71,11 +72,17 @@ td img {
     max-height: 76px;
 }
 
-/* 
-    /index.html 
-*/
+/* Specific page styles */
 
-#index-container {
+#index-container,
+#projects-container,
+#ss-container,
+#oss-container,
+#sc-container,
+#smc-container,
+#about-container,
+#videos-container,
+#contact-container {
     margin: 0 auto;
     width: 700px;
     height: auto;
@@ -90,133 +97,23 @@ td img {
     height: 200px;
 }
 
-#index-container .content p {
-    padding: 0 25px 0 250px;
+#index-container .content p,
+#sc-container .content p,
+#smc-container .content p {
+    padding: 0 25px;
     text-align: left;
 }
 
-/* 
-    /about.html 
-*/
-
-#about-container {
-    margin: 0 auto;
-    width: 700px;
-    height: 260px;
-    background-color: #BDE0FE;
-    border: 4px solid #CDB4DB;
-}
-
-/* 
-    /videos.html
-*/
-
-#videos-container {
-    margin: 0 auto;
-    width: 700px;
-    height: auto;
-    background-color: #BDE0FE;
-    border: 4px solid #CDB4DB;
-}
-
-/* 
-    /contact.html 
-*/
-
-#contact-container {
-    margin: 0 auto;
-    width: 700px;
-    height: 90px;
-    background-color: #BDE0FE;
-    border: 4px solid #CDB4DB;
-}
-
-/* 
-    /projects/index.html
-*/
-
-#projects-container {
-    margin: 0 auto;
-    width: 700px;
-    height: auto;
-    background-color: #BDE0FE;
-    border: 4px solid #CDB4DB;
-}
-
-/* 
-    /projects/saladsimulator/index.html
-*/
-
-#ss-container {
-    margin: 0 auto;
-    width: 700px;
-    height: auto;
-    background-color: #BDE0FE;
-    border: 4px solid #CDB4DB;
-}
-
-#ss-container .content img {
-    float: left;
-    padding: 25px;
-    width: 200px;
-    height: 200px;
-}
-
+#oss-container .content p,
 #ss-container .content p {
     padding: 0 25px 0 250px;
     text-align: left;
 }
 
-/* 
-    /projects/saladsimulator/old.html
-*/
-
-#oss-container {
-    margin: 0 auto;
-    width: 700px;
-    height: auto;
-    background-color: #BDE0FE;
-    border: 4px solid #CDB4DB;
-}
-
+#ss-container .content img,
 #oss-container .content img {
     float: left;
     padding: 25px;
     width: 200px;
     height: 200px;
-}
-
-#oss-container .content p {
-    padding: 0 25px 0 250px;
-    text-align: left;
-}
-
-/* 
-    /projects/saladclicker.html
-*/
-
-#sc-container {
-    margin: 0 auto;
-    width: 700px;
-    height: auto;
-    background-color: #BDE0FE;
-    border: 4px solid #CDB4DB;
-}
-
-#sc-container .content p {
-    padding: 0 25px 0 25px;
-    text-align: center;
-}
-
-#smc-container {
-    margin: 0 auto;
-    width: 700px;
-    height: auto;
-    background-color: #BDE0FE;
-    border: 4px solid #CDB4DB;
-}
-
-#smc-container .content p {
-    padding: 0 25px 0 25px;
-    text-align: center;
 }

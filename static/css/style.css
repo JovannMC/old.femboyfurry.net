@@ -80,6 +80,8 @@ td img {
 #oss-container,
 #sc-container,
 #smc-container,
+#ff-container,
+#off-container,
 #about-container,
 #videos-container,
 #contact-container {
@@ -99,7 +101,9 @@ td img {
 
 #index-container .content p,
 #sc-container .content p,
-#smc-container .content p {
+#smc-container .content p,
+#ff-container .content p,
+#off-container .content p {
     padding: 0 25px;
     text-align: left;
 }

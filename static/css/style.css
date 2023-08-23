@@ -128,13 +128,13 @@ td img {
 #ff-container .content p,
 #off-container .content p {
     padding: 0 25px;
-    text-align: left;
+    text-align: center;
 }
 
 #oss-container .content p,
 #ss-container .content p {
     padding: 0 25px 0 250px;
-    text-align: left;
+    text-align: center;
 }
 
 #ss-container .content img,

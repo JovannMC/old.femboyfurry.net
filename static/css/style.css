@@ -6,11 +6,11 @@ body {
 
 a {
     text-decoration: none;
-    color: #426AFE;
+    color: #f9005d;
 }
 
 a:hover {
-    color: #ff3981;
+    color: #ad0040;
 }
 
 h1 {
@@ -38,6 +38,11 @@ h1 {
     padding: 0 20px;
     text-decoration: none;
     font-size: 18px;
+    color: #426AFE;
+}
+
+#current {
+    color: #f9005d;
 }
 
 .links {
@@ -63,12 +68,12 @@ h1 {
 
 table, td {
     border: 1px solid #000;
-    border-collapse: collapse; /* Combine adjacent borders */
+    border-collapse: collapse;
 }
 
 th, td {
-    padding: 10px; /* Adjust padding as needed */
-    vertical-align: center; /* Align cell content to the top */
+    padding: 10px;
+    vertical-align: center;
 }
 
 .category-header {

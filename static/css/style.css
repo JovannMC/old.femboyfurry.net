@@ -90,7 +90,7 @@ td img {
 
 /* Specific page styles */
 
-#projects-container {
+#container {
     margin: 0 auto;
     width: 700px;
     height: auto;
@@ -98,16 +98,7 @@ td img {
     border: 4px solid #CDB4DB;
 }
 
-#index-container,
-#ss-container,
-#oss-container,
-#sc-container,
-#smc-container,
-#ff-container,
-#off-container,
-#about-container,
-#videos-container,
-#contact-container {
+#img-container {
     margin: 0 auto;
     width: 700px;
     height: auto;
@@ -115,30 +106,12 @@ td img {
     border: 4px solid #CDB4DB;
 }
 
-#index-container .content img {
-    float: left;
-    padding: 25px;
-    width: 200px;
-    height: 200px;
-}
-
-#index-container .content p,
-#sc-container .content p,
-#smc-container .content p,
-#ff-container .content p,
-#off-container .content p {
-    padding: 0 25px;
-    text-align: center;
-}
-
-#oss-container .content p,
-#ss-container .content p {
+#img-container .content p {
     padding: 0 25px 0 250px;
     text-align: center;
 }
 
-#ss-container .content img,
-#oss-container .content img {
+#img-container .content img {
     float: left;
     padding: 25px;
     width: 200px;
